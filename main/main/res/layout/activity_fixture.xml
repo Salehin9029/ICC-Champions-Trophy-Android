@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cham"
+    tools:context="com.example.salehinrahmankhan.myapplication.fixture">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <TableRow>
+
+                <TextView
+
+                    android:padding="3dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="FIXTURE"
+                    android:textSize="32dp" />
+
+                <TextView
+
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:padding="3dip"
+                    android:text="DATE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="MATCH DETAILS" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="TIME" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 01, \n THU" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="ENGLAND VS BANGLADESH,\n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30 AM\nGMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 02 \n FRI" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AUSTRALIA VS NEW ZEALAND, \n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM\n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 03 \n SAT" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="SRILANKA VS SOUTH AFRICA \n GROUP B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM\n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 04 \n SUN" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="INDIA VS PAKISTAN \n GROUP B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM\n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 05 \n MON" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AUSTRALIA VS BANGLADESH \n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="6:30PM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 06 \n TUE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="ENGLAND VS NEW ZEALAND \n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT " />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 07 \n WED" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="PAKISTAN VS SOUTH AFRICA \n GROUP B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="12:30PM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 08 \n THU" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="INDIA VS SRILANKA \n GROUP B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 09 \n FRI" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="NEW ZEALAND VS BANGLADESH \n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 10 \n SAT " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="ENGLAND VS AUSTRALIA \n GROUP A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:padding="3dip"
+                    android:text="JUN 11 \n SUN" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="INDIA VS SOUTH AFRICA \n GROUP B " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="3dip"
+                    android:text="JUN 12 \n MON " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="SRILANKA VS PAKISTAN \n GROUP B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorAccent"
+                    android:padding="3dip"
+                    android:text="JUN 14 \n WED" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/colorAccent"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="TBC VS TBC(A1 VS B2) \n 1st SEMI-FINAL" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorAccent"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:padding="3dip"
+                    android:text="JUN 15 \n THU"
+                    android:background="?attr/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="TBC VS TBC(A2 VS B1) \n 2nd SEMI-FINAL"
+                    android:background="?attr/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorAccent"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_light"
+                    android:padding="3dip"
+                    android:text="JUN 18 \n SUN" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_light"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="TBC VS TBC \n FINAL" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_light"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="9:30AM \n GMT" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
